@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+# Portable tools
+/git/
+/node/
+/node_modules/
+
+# Private SSH key
+/git/ssh/invoice_manager
+
+# SSH host configuration
+/git/ssh/known_hosts
