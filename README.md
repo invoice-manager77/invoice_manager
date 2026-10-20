@@ -39,7 +39,7 @@ Invoice Manager is a personal web application that helps users organize invoices
 ### Student 1: Amjed Al-Alawi
 
 
-### Student 2: Abdullah Alo]()mari
+### Student 2: Abdullah Alomari
 
 
 ### Student 3: Tariq Almanai
