@@ -17,7 +17,7 @@ node\npm.cmd install tailwindcss @tailwindcss/cli
 node\npx.cmd @tailwindcs
 s/cli -i ./assets/css/input.css -o ./assets/css/output.css
 node\npx.cmd @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch
-
+node\npx.cmd @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --build
 git\bin\git.exe init
 git\bin\git.exe branch -M main
 git\bin\git.exe remote add origin https://github.com/invoice-manager77/invoice_manager.git
