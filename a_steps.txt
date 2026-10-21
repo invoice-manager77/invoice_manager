@@ -1,11 +1,12 @@
-student update project:
+student push:
 
 git\bin\git.exe config core.sshCommand "ssh -i git/ssh/invoice_manager -o IdentitiesOnly=yes" && ^
 git\bin\git.exe add . && ^
 git\bin\git.exe commit -m "Student 1: Amjed Al-Alawi - Project Setup and Tailwind CSS" && ^
 git\bin\git.exe push -u origin main
 
-
+student pull:
+git\bin\git.exe config core.sshCommand "ssh -i git/ssh/invoice_manager -o IdentitiesOnly=yes" && git\bin\git.exe fetch origin main && git\bin\git.exe reset --hard origin/main
 
 first time:
 https://nodejs.org/en/download
